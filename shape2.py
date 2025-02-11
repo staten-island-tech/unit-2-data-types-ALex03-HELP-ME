@@ -3,7 +3,7 @@
 
 
 
-""" print("test")
+"""  print("test")
 
 #def defines a function
 #inside the parenthesis are the inputs aka argument
@@ -13,8 +13,8 @@ def add(x,y):
     #return creates an output for the function
     print(x + y)
     return(x + Y)
-    add(5,6) """
-
+    add(5,6)
+ """
 
 """ x = 3
 y = float(3)
@@ -43,7 +43,10 @@ else:
     print("incorrect")
  """
 
- 
+""" import turtle
+from turtle import *
+t = Turtle()
+
 x = "test"
 print(f"hello {x}")
 
@@ -54,27 +57,17 @@ if temp > 68:
 elif temp == 68:
     print('perfect')
 else:
-    print('cold')
+    print('cold') """
 
 
+def check_odd_even(number):
+    if number % 2 == 0:
+        return "Even"
+    else:
+        return "Odd"
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-turtle.done()
+check_odd_even = input("number")
+if  check_odd_even == "Even":
+    print("Even")
+else:
+    print("odd")
