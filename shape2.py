@@ -72,3 +72,18 @@ def check_odd_even():
 check_odd_even()
  """
 
+def calculate_tip(bill, service_quality):
+    # Define the tip percentages for each service quality
+    if service_quality == "bad":
+        tip_percentage = 0  # No tip for bad service
+    elif service_quality == "okay":
+        tip_percentage = 0.15  # 15% tip for okay service
+    elif service_quality == "good":
+        tip_percentage = 0.20  # 20% tip for good service
+    elif service_quality == "great":
+        tip_percentage = 0.25  # 25% tip for great service
+    else:
+        return "Invalid service quality"
+
+    tip = bill * tip_percentage
+    return f"Tip for {service}
