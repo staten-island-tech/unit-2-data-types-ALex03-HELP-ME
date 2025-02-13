@@ -86,4 +86,6 @@ def calculate_tip(bill, service_quality):
         return "Invalid service quality"
 
     tip = bill * tip_percentage
-    return f"Tip for {service}
+    return f"Tip for {service} service: ${tip:.2f}"
+bill = float(input("enter the bill amount: $"))
+service = input("enter the service rating (bad, ok, good, great): ").strip()
