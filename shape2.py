@@ -91,3 +91,7 @@ bill = float(input("enter the bill amount: $"))
 service = input("enter the service rating (bad, ok, good, great): ").strip()
 tip = calculate_tip(bill, service)
 print(tip) """
+
+def find_factors(number):
+
+    factor = []
