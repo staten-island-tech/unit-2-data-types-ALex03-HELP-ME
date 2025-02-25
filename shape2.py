@@ -92,6 +92,14 @@ service = input("enter the service rating (bad, ok, good, great): ").strip()
 tip = calculate_tip(bill, service)
 print(tip) """
 
-def find_factors(number):
+""" def skins(money, age, isAvailable):
+    if money < 10 or age <18 or isAvailable == False:
+        return ("can't buy")
+def skins(age, isAvailable):
+    if age > 18 and isAvailable == True:
+        print ("wish to buy?")
+    else:
+        print("get older bitch") """
 
-    factor = []
+
+
