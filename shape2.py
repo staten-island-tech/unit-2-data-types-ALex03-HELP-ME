@@ -101,5 +101,13 @@ def skins(age, isAvailable):
     else:
         print("get older bitch") """
 
+""" # code for GCF
+
+def print_factors(x):
+     """
+
+
+
+
 
 
