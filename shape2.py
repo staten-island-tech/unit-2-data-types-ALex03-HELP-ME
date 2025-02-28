@@ -128,6 +128,32 @@ print_factors(num) """
 
 # code for GCF
 
+def print_factors(x):
+    print("the factors of",x, "are:")
+    for i in range(1, x + 1):
+        if x % i == 0:
+            print(i)
+
+num = 60
+
+print_factors(num)
+#python program to find the factors of a number
+
+#this function computes the factor of th argument passed 
+def print_factor(y):
+    print("the factors of",y, "are:")
+    for i in range(1, y + 1):
+        if y % i == 0:
+            print(i)
+
+num = 320
 
 
+print_factors(num)
 
+
+"import math
+a = 100
+b = 734
+gcf = math.gcd(a, b)
+print (f"the GCF of {a} and {b}is {gcf}")"
