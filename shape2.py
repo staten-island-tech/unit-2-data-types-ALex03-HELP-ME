@@ -152,8 +152,8 @@ num = 320
 print_factors(num)
 
 
-"import math
+""" "import math
 a = 100
 b = 734
 gcf = math.gcd(a, b)
-print (f"the GCF of {a} and {b}is {gcf}")"
+print (f"the GCF of {a} and {b}is {gcf}")"" """
